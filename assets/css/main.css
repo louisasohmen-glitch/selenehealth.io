@@ -2192,7 +2192,7 @@ ul.social li a.fa-google-plus:hover {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 10vw;
-	;
+	min-height: 60px;
 	color: #c50000;
 	font-family: "Poppins", sans-serif !important;
 	letter-spacing: -3px !important;
@@ -3097,8 +3097,10 @@ ul.social li a.fa-google-plus:hover {
 	#main {
 		margin-top: 2rem !important;
 	}
-	#nav {
-  margin-top: 2rem;
-}
+	#header-title {
+		min-height: max-content !important;
+	}
+
+
 
 }
